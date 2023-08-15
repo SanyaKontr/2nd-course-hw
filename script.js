@@ -1,3 +1,9 @@
+/*let a=10;
+alert(a);
+
+let a=20;
+alert(a);*/
+
 let name = 'Брендан Эйх';
 alert(name);
 
@@ -25,12 +31,18 @@ num += 1;
 num -= 1;
 alert(num);
 
+let age=prompt('Сколько вам лет?');
+alert('Вам ' + age + ' лет')
+
 const user = {
     name: 'John',
     age: 37,
     isAdmin: true,
    
 }
+
+/*user['city of residence'];*/
+
 let info=prompt('Какую информацию хотите узнать о пользователе?')
 
 alert(user[info]);
