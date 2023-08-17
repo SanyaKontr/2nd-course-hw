@@ -1,7 +1,4 @@
-/*let a=10;
-alert(a);
-
-let a=20;
+/*let a=20;
 alert(a);*/
 
 let name = 'Брендан Эйх';
@@ -40,6 +37,7 @@ const user = {
     isAdmin: true,
    
 }
+user['age'] = 25;
 
 /*user['city of residence'];*/
 
