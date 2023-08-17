@@ -1,0 +1,58 @@
+@media (max-width: 767px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 735px;
+    }
+    .header__title_one{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+height: 77px;
+}
+.header__title_two{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    width: 343px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    height:66px;
+
+}
+.word{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px;
+}
+.header__title_button{
+    height: 49px;
+    padding-top: 0px;
+    font-size: 0px
+}
+.games__variant{
+    width: 343px;
+    height: 300px;
+}
+.games{
+    background: #000915;
+    height: 1221px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 128px;
+    align-items: center;
+}
+}

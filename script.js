@@ -77,7 +77,7 @@ if (d > 100 || e > 100) {
 let a = '2';
 let b = '3';
 // Код выше изменять менять нельзя, чтобы решить задачу исправьте код ниже: 
-alert(Number(a) + Number(b));*/
+alert(Number(a) + Number(b));
 
 
 let month = String(prompt('Какой сейчас номер месяца?'))
@@ -121,4 +121,4 @@ switch (month) {
     default:
         console.log('Такого месяца не существует');
         break;
-}
+}*/
