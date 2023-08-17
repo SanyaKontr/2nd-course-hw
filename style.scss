@@ -63,6 +63,10 @@
         transition: 0.3s;
     }
     }
+    .button-div:hover{
+        transform: scale(1.03);
+        transition: 0.3s;
+    }
     .games{
         background: #000915;
         display: flex;
@@ -144,6 +148,9 @@ line-height: normal;
     .seasons__img{
         padding-bottom: 234px;
     }
+.seasons__text_m{
+    display: none;
+}
 
     @import 'mobile';
     
