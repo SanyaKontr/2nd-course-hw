@@ -16,7 +16,7 @@
     font-weight: 700;
     line-height: normal;
     padding-top: 217px;
-    height: 125.007px;
+
     }
     .header__title_two{
         color: #FFF;
@@ -54,18 +54,22 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
     }
+    
     .header__title_button{
     padding-top: 44px;
+    :hover{
+        transform: scale(1.03);
+        transition: 0.3s;
+    }
     }
     .games{
         background: #000915;
-        height: 556px;
         display: flex;
         flex-direction: row;
         gap: 32px;
         padding-top: 128px;
+        padding-bottom: 128px;
     }
     .games__variant{
         width: 379px;
@@ -109,6 +113,36 @@
     }
     .game-link{
         text-decoration: none;
+    }
+    .seasons{
+        background-color: #000915;
+        padding-top: 282px;
+    }
+    .seasons__desc{
+        display: flex;
+        justify-content: space-between;
+    }
+    .seasons__text_h{
+        color: #FFF;
+font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .seasons__text_p{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px; /* 177.778% */
+        width: 584px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .seasons__img{
+        padding-bottom: 234px;
     }
 
     @import 'mobile';

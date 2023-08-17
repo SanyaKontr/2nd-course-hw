@@ -18,7 +18,6 @@
   font-weight: 700;
   line-height: normal;
   padding-top: 217px;
-  height: 125.007px;
 }
 
 .header__title_two {
@@ -64,14 +63,18 @@
 .header__title_button {
   padding-top: 44px;
 }
+.header__title_button :hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
 
 .games {
   background: #000915;
-  height: 556px;
   display: flex;
   flex-direction: row;
   gap: 32px;
   padding-top: 128px;
+  padding-bottom: 128px;
 }
 
 .games__variant {
@@ -120,6 +123,41 @@
 
 .game-link {
   text-decoration: none;
+}
+
+.seasons {
+  background-color: #000915;
+  padding-top: 282px;
+}
+
+.seasons__desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.seasons__text_h {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.seasons__text_p {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; /* 177.778% */
+  width: 584px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.seasons__img {
+  padding-bottom: 234px;
 }
 
 @media (max-width: 767px) {
@@ -172,11 +210,50 @@
   }
   .games {
     background: #000915;
-    height: 1221px;
     display: flex;
     flex-direction: column;
     gap: 32px;
     padding-top: 128px;
     align-items: center;
+  }
+  .seasons {
+    background-color: #000915;
+    padding-top: 51px;
+  }
+  .seasons__text_h {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .seasons__text_p {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; /* 157.143% */
+    width: 343px;
+  }
+  .seasons__desc {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .seasons__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img {
+    width: 344px;
+    height: 236px;
+    flex-shrink: 0;
+    padding-top: 64px;
   }
 }/*# sourceMappingURL=style.css.map */

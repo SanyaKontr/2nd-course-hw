@@ -49,11 +49,50 @@ line-height: 22px;
 }
 .games{
     background: #000915;
-    height: 1221px;
     display: flex;
     flex-direction: column;
     gap: 32px;
     padding-top: 128px;
     align-items: center;
+}
+.seasons{
+    background-color: #000915;
+    padding-top: 51px;
+}
+.seasons__text_h{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.seasons__text_p{
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 157.143% */
+width: 343px;
+}
+.seasons__desc{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.seasons__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+    width: 344px;
+height: 236px;
+flex-shrink: 0;
+padding-top: 64px;
 }
 }
